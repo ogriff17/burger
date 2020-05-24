@@ -33,9 +33,9 @@ connection.query(queryString, vals, function(err, result){
 
 updateOne: function (table, objColsVals, condition, cb) {
     var queryString = "UPDATE " + table;
-    queryString += "SET ";
-    queryString += "devoured = " + objColsVals; 
-    queryString += "WHERE ";
+    queryString += " SET ";
+    queryString += "devoured = " + "1"; 
+    queryString += " WHERE ";
     queryString += condition;
 
     console.log(queryString);
