@@ -18,7 +18,7 @@ insertOne: function(table, cols, vals, cb){
     queryString += cols.toString();
     queryString += ") ";
     queryString += "VALUES (";
-    queryString += "'" + vals[0] + "', " + vals[1];
+    queryString += "'" + vals[0] + "', " + "0";
     queryString += " )";
 
 

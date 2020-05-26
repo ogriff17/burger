@@ -3,9 +3,85 @@
   }
 
   body{
-    background-color:red;  
+    background-color:peachpuff;
+    font-family:monospace;
+    font-size:20px;
   }
 
-  .header-container{
-      color:red;
+  .main-container{
+    color:purple;
+  }
+
+  header{
+    color:purple;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .devour-button{
+    background: gold;
+    
+  }
+
+  #burger-list{
+    margin-left:20%;
+  }
+
+  #burger-list-item{
+    background:white;
+    padding-left:5%;
+    padding-top:1%;
+    padding-bottom:2%;
+    border:1%;
+  }
+
+  #devour-button{
+    position:relative;
+    bottom:20px;
+    left:200px;
+    margin-left:4%;
+  }
+
+  #hamburger-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+  }
+
+  #devoured-hamburgers{
+   margin-left:600px;
+   margin-top:-75px;
+   
+    
+  }
+
+  li{
+    list-style:none;
+  }
+
+  #instructions{
+    text-align:center;
+  }
+  
+  #new-burger-submit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    
+  }
+
+  #new-burger-text{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #available-hamburgers{
+    width:50%;
+  }
+
+  ul{
+    margin-top:
   }
