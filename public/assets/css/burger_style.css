@@ -24,7 +24,7 @@
   }
 
   #burger-list{
-    margin-left:20%;
+    margin-left:50%;
   }
 
   #burger-list-item{
@@ -50,10 +50,8 @@
   }
 
   #devoured-hamburgers{
-   margin-left:600px;
-   margin-top:-75px;
-   
-    
+   margin-left:800px;
+   margin-top:-10px;  
   }
 
   li{
